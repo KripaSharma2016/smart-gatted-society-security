@@ -7,3 +7,5 @@ services:
       - .:/code
     ports:
       - "8001:8001"
+    links:
+      - api
